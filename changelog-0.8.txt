@@ -1,0 +1,25 @@
+------------------
+Jzy3D 0.8 
+------------------
+
+------------
+NEW FEATURES
+------------
+Create a mapper from an image file
+Offscreen charts
+Contour plots
+Graph 2d plots
+Interactive/Pickable objects
+Textured objects
+Enlightable objects
+Tooltips
+Background image
+Groovy scripting
+
+------------
+BUG FIXES
+------------
+StaticTickRenderer
+Colorbar in Intermediate quality
+Background image problem
+AxeBox computes hidden faces without feedback buffer for better hardware compatibility

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/api"/>
+	<classpathentry kind="src" path="src/bridge"/>
+	<classpathentry kind="src" path="src/glredbook"/>
+	<classpathentry exported="true" kind="lib" path="lib/java/gluegen-rt.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/java/jogl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="org.jzy3d-0.8/bin/win32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/java/swt.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/java/swt-debug.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/java/opencsv-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/java/org.convexhull.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

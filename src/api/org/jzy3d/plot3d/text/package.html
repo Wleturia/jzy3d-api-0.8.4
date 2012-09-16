@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<!--
+
+  @(#)package.html	1.60 2007/10/23
+
+  Copyright 2007 MASA.
+
+  This software is the confidential and proprietary information of MASA 
+  ("Confidential Information").  You shall not
+  disclose such Confidential Information and shall use it only in
+  accordance with the terms of the license agreement you entered into
+  with MASA.
+
+  CopyrightVersion 1.0
+
+-->
+</head>
+<body bgcolor="white">
+
+Provides utilities for rendering texts into a 3 dimensional scene.
+<p>
+A Text3d is a special primitive that does not implement the Drawable interface. Indeed, an instance
+of Text3d renders any number of strings.
+<p>
+The {@link Text3dBillboard} class allows drawing text as a collection of bitmaps, with a position specified
+with a three dimensional coordinate. Note that Text3dBillboard is currently not resizable.
+<p>
+The {@link Text3dFont} is an attempt to wrap the TextRenderer provided by JOGL but that doesn't
+work at version 1.1.1-rc3. It is left in this package for further tests. Note that the TextRenderer
+coming with the SWT binding 0.7 neither work.
+<p>
+Any Text3d has a position given by a (x,y,z) coordinate. Moreover, it is possible to specify an
+horizontal or vertical alignment w.r.t. to this position, by using the {@link TextHalign} and 
+{@link TextValign} enumerations.
+
+<!-- Put @see and @since tags down here. -->
+
+</body>
+</html>
